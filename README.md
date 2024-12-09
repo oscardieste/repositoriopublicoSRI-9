@@ -3,7 +3,8 @@ Nesta práctica configurei dúas páxinas web, chamadas fabulasbrillantes e fabu
 ## Arquivo docker-compose.yml
 Neste arquivo, configúranse dous servizos: o servidor web e o servidor DNS. Ademais, defínese unha rede personalizada chamada redweb.
 ### web
-`web:
+```
+web:
     image: php:7.4-apache
     container_name: servidorweb
     ports:
@@ -14,4 +15,4 @@ Neste arquivo, configúranse dous servizos: o servidor web e o servidor DNS. Ade
     networks:
       redweb:
         ipv4_address: 192.168.100.10
-`
+```

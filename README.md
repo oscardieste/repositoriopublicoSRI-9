@@ -18,7 +18,7 @@ web:
 ```
 
 ### dns 
-``'
+```
 dns:
     container_name: servidorDNS
     image: ubuntu/bind9

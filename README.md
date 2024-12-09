@@ -30,7 +30,7 @@ dns:
     networks:
       redweb:
         ipv4_address: 192.168.100.20
-``'
+```
 ### red 
 ```
 networks:
